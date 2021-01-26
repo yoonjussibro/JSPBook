@@ -15,6 +15,15 @@
 	<%
 	String path = "C:\\java102\\upload";
 	
+	/* File path = new File(fileyUploadPath);
+	DiskFileItemFactory factory = new DiskFileItemFactory();
+	factory.setSizeThreshold(4096);
+	factory.setRepository(path);
+	
+	ServletFileUpload upload = new ServletFileUpload(factory);
+	List<FileItem> items = upload.parseRequest(request);
+	Iterator<FIleItem> iter = items.iterator(); */
+	
 	DiskFileUpload upload = new DiskFileUpload();
 	
 	/* 파일 최대 크기 설정 */
