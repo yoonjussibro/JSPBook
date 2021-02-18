@@ -10,7 +10,7 @@
 <body>
 	<%@ include file="dbconn.jsp" %>
 	
-	<table border="1" width="300">
+	<table border="1" style="width:300;">
 		<thead>
 			<tr>
 				<th>아이디</th>
